@@ -31,4 +31,6 @@ for tr in trs:
         'artist' : artist
     }
 
+    db.homework_3_1.insert_one(my_dict)
+
     print(my_rank,title,album,artist)
