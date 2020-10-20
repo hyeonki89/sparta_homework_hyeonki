@@ -25,7 +25,7 @@ for tr in trs:
     title = tr.select_one('td:nth-child(5) > div > div > div.ellipsis.rank01 > span > a').text
     album = tr.select_one('td:nth-child(6) > div > div > div > a').text
     artist = tr.select_one('td:nth-child(5) > div > div > div.ellipsis.rank02 > a').text
-    #랭크정보가 없다면 랭크를 하나씩 추가해주는 방법 
+    #랭크정보가 없다면 랭크를 하나씩 추가해주는 방법
     my_rank = my_rank+1
 
     my_dict = {
